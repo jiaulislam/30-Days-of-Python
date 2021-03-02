@@ -1,7 +1,6 @@
 class Difference:
     def __init__(self, a):
         self.__elements = a
-        self.maximumDifference = 0
 
     def computeDifference(self):
         self.__elements.sort()
